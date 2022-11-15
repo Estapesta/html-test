@@ -1,8 +1,5 @@
-.container{
-    height: 1000;
-}
-.bodystyle{
-    color: rgb(235, 235, 235);
+body{
+    background-color: rgb(247, 247, 247);
 }
 .header{
     background-color: rgba(0, 0, 0, 1);
@@ -99,8 +96,8 @@ clear: both;
 content: "";
 }
 .col-1{width: 8.33%;}
-.col-2{width: 16.66%;}
-.col-3{width: 25%;}
+.col-2{width: 11%;}
+.col-3{width: 33.33%;}
 .col-4{width: 33.33%;}
 .col-5{width: 41.66;}
 .col-6{width: 50%;}
@@ -114,10 +111,39 @@ content: "";
     box-sizing: border-box;
 }
 .col-4{
-    background-color: rgb(218, 218, 218);
+    background-color: rgb(255, 255, 255);
 }
 .UCimg{
     height: 100%;
     background-color:black;
-    
+}
+.mb-0{
+    margin-left: 20px;
+}
+.commonapp{
+    font-size: 10px;
+}
+.col-3{
+    margin-left: 70px;
+    background-color: rgb(255, 255, 255);
+}
+
+.CAI{
+    margin-left: 35px;
+    margin-top: 40px;
+    background-color: white;
+
+}
+.Applying {
+    margin-right: 100px;
+    text-align: center;
+    white-space: nowrap;
+    font-size: 22px;
+}
+.Applying h2{
+font-size: 20px;
+}
+.col-2{
+    height: 100%;
+    background-color: yellow;
 }
