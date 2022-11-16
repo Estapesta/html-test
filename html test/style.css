@@ -143,7 +143,28 @@ content: "";
 .Applying h2{
 font-size: 20px;
 }
-.col-2{
+.cards{
+    display: flex;
     height: 100%;
-    background-color: yellow;
+    justify-content: center;
+}
+.card{
+align-items: center;
+background-image: url(/Images/image_4.jpg);
+background-repeat: no-repeat;
+overflow: hidden;
+height: 100%;
+margin-left: 20px;
+cursor: pointer;
+}
+.card1{
+    flex: 0 0 300px;
+    height: 100%;
+    overflow: hidden;
+    background: rgba(255, 218, 34, 0.82);
+    z-index: 2;
+}
+.text{
+    padding-top: 50px;
+    text-align: center;
 }
